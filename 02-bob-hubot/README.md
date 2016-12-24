@@ -1,6 +1,6 @@
-# 02-bob-hubot
+# /02-bob-hubot
 
-## 00-first
+## /00-first
 
 This part is a walking skeleton of Hubot
 
