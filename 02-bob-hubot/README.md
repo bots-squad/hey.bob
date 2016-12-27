@@ -6,7 +6,7 @@ This part is a walking skeleton of Hubot
 
 ### Listen and display Hubot answers
 
-- run `./listen.js` (this is an Express application)
+- run (first) `./listen.js` (this is an Express application)
 - set up variables and parameters in the `config.js` file
 
 > eg: You can use this part as a middleware to send informations (Johnny5, MQTT, ...)

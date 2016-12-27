@@ -7,7 +7,7 @@ let hubot_url = `${hubot_protocol}://${hubot_server_name}:${hubot_port}/receive`
 let listener_server_port = 8083;
 let listener_server_name = 'localhost';
 let listener_protocol = 'http';
-let listener_route = '/hey/iam/bob/';
+let listener_route = '/hey/iam/bob';
 // url used by hubot  - for the response
 let listener_answer_url = `${listener_protocol}://${listener_server_name}:${listener_server_port}${listener_route}`
 

@@ -4,8 +4,9 @@ require('shelljs/global');
 const config = require('./config.js');
 
 process.env["EXPRESS_PORT"] = config.hubot_port;
-process.env["HUBOT_REST_SEND_URL"] = config.listener_answer_url
-exec(`./bin/hubot -a json-rest-adapter`)
+process.env["HUBOT_POST_RESPONSES_URL"] = config.listener_answer_url
+
+exec(`./bin/hubot -a http-adapter`)
 
 /* RocketChat setup
 process.env["USER"] = "bob";

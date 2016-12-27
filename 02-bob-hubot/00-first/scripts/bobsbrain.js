@@ -1,8 +1,9 @@
 // Description:
 //   <description of the scripts functionality>
 // ...
-
 'use strict';
+
+
 module.exports =  (robot) =>  {
 
   robot.messageRoom('general', 'Hello 🌍 I am BoB')

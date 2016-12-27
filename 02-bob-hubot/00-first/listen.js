@@ -9,11 +9,10 @@ let app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.post(`${config.listener_route}:room`, (req, res) => {
+app.post(`${config.listener_route}/:room`, (req, res) => {
   console.log(req.body, req.params);
   res.status(201).end();
 });
-
 
 app.listen(http_port)
 
