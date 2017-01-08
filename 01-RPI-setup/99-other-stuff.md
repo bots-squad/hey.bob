@@ -21,3 +21,7 @@ J'ai installé:
 ## Divers
 
 - changer le password de `root`: `sudo passwd root`
+
+## Ressources
+
+- guide très complet: http://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/
