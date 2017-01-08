@@ -22,6 +22,7 @@ sudo ./install.sh
 - plugger la GrovePI (le shield GrovePI)
 - re lancer la bête
 - dans un terminal (ou en SSH):
+
   ```shell
   sudo i2cdetect -y 1
   # si on obtient ça en sortie c'est ok
