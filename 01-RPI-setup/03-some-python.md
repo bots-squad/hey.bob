@@ -1,6 +1,6 @@
 # Python et Groove
 
-... parcque la version node n'est pas cuite 😡
+... parceque la version node n'est pas cuite 😡
 
-> 🚧 cf `./01-src`
+> 🚧 cf `./01-src-python`
 > WIP
