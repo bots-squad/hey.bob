@@ -18,6 +18,26 @@ J'ai installé:
   exit
   ```
 
+- Samba:
+
+  ```shell
+  sudo apt-get install samba samba-common-bin
+  # Ensuite, il faudra éditer le fichier de configuration :
+  sudo pico /etc/samba/smb.conf
+  # Chercher la rubrique ####### Authentication #######
+  # et créez l'entrée suivante : security = user
+
+  # puis chercher la rubrique [homes] et précisez :
+  # comment = Home Directories
+  # browseable = yes
+  # read only = no
+  ```
+  - sauvegardez, quittez l'éditeur
+  - Associez un mot de passe samba à l'utilisateur `pi` : `sudo smbpasswd -a pi`
+  - Re-démarrez le serveur samba : `sudo /etc/init.d/samba restart`
+  - sous OSX, vous allez dans le menu `Go` du Finder, sélectionnez `Connect to server` ..., saisissez `smb://adresse_ip_du_raspberry`
+
+
 ## Divers
 
 - changer le password de `root`: `sudo passwd root`
